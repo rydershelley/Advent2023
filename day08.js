@@ -1,4 +1,3 @@
-const { group } = require('console');
 const fs = require('fs');
 const data = fs.readFileSync('day08_input.txt', 'utf8');
 const lines = data.split(/\n/);
